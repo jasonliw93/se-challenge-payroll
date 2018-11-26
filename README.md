@@ -222,3 +222,17 @@ Evaluation of your submission will be based on the following criteria.
    they explained?
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
+
+
+## Instructions on how to build/run your application
+1. Ensure python 3.5 or higher, pip and virtualenv are installed
+1. run `virtualenv -p python3 env`
+1. run `source env/bin/activate`
+1. run `pip install -r requirements.txt`
+1. run `npm install`
+1. run `npm run build`
+1. run `python manage.py migrate`
+1. run `python manage.py runserver`
+1. go to `localhost:8000`
+## A paragraph or two about what you are particularly proud of in your implementation, and why.
+I'm proud of the fact that I was able to get my app set up and running relatively quickly with django and facebook's create-react-app. I'm also proud of the fact that I was able to simplify and optimize the report generation process by leveraing SQL and the django ORM.
